@@ -187,7 +187,3 @@ export default function Anasayfa() {
     </>
   );
 }
-
-export const getServerSideProps = requireAuthentication((context) => {
-  return { props: {} };
-});
