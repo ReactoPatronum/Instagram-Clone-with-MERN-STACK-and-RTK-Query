@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 export const user_Service = createApi({
   reducerPath: "user_Service",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3001/api/",
+    baseUrl: "https://insta-clone-with-mern.vercel.app/api/",
     prepareHeaders: (headers) => {
       const token = Cookies.get("token");
       if (token) {

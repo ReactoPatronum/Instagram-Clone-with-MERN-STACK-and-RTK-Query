@@ -1,3 +1,3 @@
-const allowedOrigins = ["http://localhost:3001", "https://instaclone.com"];
+const allowedOrigins = ["https://insta-clone-with-mern.vercel.app/"];
 
 module.exports = allowedOrigins;
