@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 export const user_Service = createApi({
   reducerPath: "user_Service",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://insta-clone-api.onrender.com",
+    baseUrl: "https://insta-clone-api-ijhp.onrender.com",
     prepareHeaders: (headers) => {
       const token = Cookies.get("token");
       if (token) {
