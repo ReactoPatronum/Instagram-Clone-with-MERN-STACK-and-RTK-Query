@@ -15,7 +15,6 @@ export default function Explore() {
   const [openModal, setOpenModal] = useState(false);
   const dispatch = useDispatch();
   const { data, isLoading } = useGetAllPostsQuery();
-  console.log(data);
   return (
     <div>
       <Head>
