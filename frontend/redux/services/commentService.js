@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 export const comment_Service = createApi({
   reducerPath: "comment_Service",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://insta-clone-api-ijhp.onrender.com",
+    baseUrl: "https://insta-clone-api-ijhp.onrender.com/api",
     prepareHeaders: (headers) => {
       const token = Cookies.get("token");
       if (token) {
